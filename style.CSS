@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Times New Roman';
+  font-size: 14px;
+  background-color: blue;
+  width: 100%;
+
+}
+.zero{
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.zero img {
+  
+  float: inline-end;
+ 
+  display: flex;
+  
+  top: auto;
+  align-items: center;
+width: 40%;
+  
+}
+
+.image img {
+  float: right;
+  position: relative;
+  
+  right: -8px;
+  display: flex;
+  height: 70px;
+  margin-top: 0px;
+  background-color: blue;
+
+}
+
+.one {
+  margin-top: 10px;
+  margin-left: 2px;
+  text-align: justify;
+  font-family: Calibri;
+  font-size: 80px;
+  color: orange;
+  font-weight: bolder ;
+}
+
+.two {
+  font-family: Calibri;
+  font-size: 80px;
+  color: #ffffff;
+  margin-top: -20px;
+
+}
+
+.three {
+  margin-left: 2px;
+  text-align: justify;
+  line-height: 19px;
+  font-family: Calibri;
+  font-size: 80px;
+  color: #ffffff;
+  margin-top: 23px;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  background-color: #ffffff;
+  color: blue;
+  margin-left: 40px;
+  border-color: blue;
+  font-weight: bolder;
+  font-size: 18px;
+
+}
+
+.four {
+  margin-top: 80px;
+  text-align: justify;
+  line-height: 9px;
+  font-family: Calibri;
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  margin-left: 40px;
+}
+.chuu{
+  margin-top: 50px;
+  padding-left: 35px;
+  height: 60vh;
+  width: 40%;
+}
+.flex{
+  display: flex;
+  width: 100%;
+
+}
+
+@media only screen and (max-width : 400px){
+  body{
+    width: 100%;
+  }
+  
+  .main{
+    width: 100%;
+  }
+  .flex{
+    flex-direction: column-reverse;
+    justify-content: center ;
+  }
+  .zero img{
+    width: 50%;
+    margin-right: -22px;
+    float: none;
+    height: 153px;
+  }
+  .zero{
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  
+    
+  }
+  .chuu{
+    height: 55%;
+    justify-content: centerx;
+    margin-top: 45px;
+    width: 100%;
+    
+  }
+  .image{
+   width: 100%;
+    display: flex;
+    justify-content: right ;
+  } 
+  .image img{
+    position: unset;
+    float: none;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  .two{
+    width: 100%;
+    font-size: 50px;
+    overflow: hidden;
+  }
+  .three{
+    font-size: 50px;
+  }
+  .one{
+    display: flex;
+    width: 100%;
+  }
+  .four{
+    margin-top: 35px;
+  }
+  button{
+    margin-top: 40px;
+  }
+}
